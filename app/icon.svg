@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <!-- Luxury Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF3D8" />
+      <stop offset="35%" stop-color="#E2BA6F" />
+      <stop offset="70%" stop-color="#BD8D36" />
+      <stop offset="100%" stop-color="#8F6317" />
+    </linearGradient>
+
+    <!-- Deep Marble Background Gradient -->
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1816" />
+      <stop offset="50%" stop-color="#0F0E0D" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+
+    <!-- Gemstone Ruby/Carnelian Accent -->
+    <linearGradient id="gemRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E05252" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </linearGradient>
+
+    <!-- Gemstone Malachite Accent -->
+    <linearGradient id="gemGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+
+    <!-- Gemstone Lapis Accent -->
+    <linearGradient id="gemBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Plate: Squircle with Rich Black Finish -->
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#darkBg)" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- Inner Delicate Octagonal Filigree Border -->
+  <polygon points="64,12 116,64 64,116 12,64" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" opacity="0.45" />
+  <rect x="16" y="16" width="96" height="96" rx="18" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.3" stroke-dasharray="3,3" />
+
+  <!-- Four Pietra Dura Corner Petals (Lapis & Malachite) -->
+  <circle cx="64" cy="18" r="3.5" fill="url(#gemBlue)" />
+  <circle cx="110" cy="64" r="3.5" fill="url(#gemGreen)" />
+  <circle cx="64" cy="110" r="3.5" fill="url(#gemBlue)" />
+  <circle cx="18" cy="64" r="3.5" fill="url(#gemGreen)" />
+
+  <!-- Top Imperial Diamond Accent -->
+  <polygon points="64,26 69,32 64,38 59,32" fill="url(#goldGrad)" />
+  <circle cx="64" cy="32" r="1.5" fill="url(#gemRed)" />
+
+  <!-- Monogram "RK" in Refined Classical Serif Typography -->
+  <text 
+    x="64" 
+    y="80" 
+    text-anchor="middle" 
+    font-family="'Playfair Display', 'Times New Roman', Georgia, serif" 
+    font-weight="700" 
+    font-size="44" 
+    letter-spacing="3" 
+    fill="url(#goldGrad)"
+  >RK</text>
+
+  <!-- Bottom Subtitle Ribbon "INLAY" -->
+  <text 
+    x="64" 
+    y="97" 
+    text-anchor="middle" 
+    font-family="'Plus Jakarta Sans', 'Arial', sans-serif" 
+    font-weight="600" 
+    font-size="10.5" 
+    letter-spacing="5" 
+    fill="#E5C384"
+    opacity="0.9"
+  >INLAY</text>
+
+  <!-- Bottom Accent Gem -->
+  <circle cx="64" cy="103" r="1.5" fill="url(#goldGrad)" />
+</svg>
